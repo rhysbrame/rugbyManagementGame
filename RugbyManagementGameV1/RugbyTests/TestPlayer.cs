@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
-using System;
-using RugbyManagementGameV1.Properties;
+using RugbyManagementGameV1.Models;
 
 namespace RugbyTests
 {
@@ -10,7 +9,8 @@ namespace RugbyTests
         private Player IndividualPlayer;
 
         [SetUp] 
-        public void SetUp() {
+        public void SetUp()
+        {
             IndividualPlayer = new Player("Darren", 5);
         }
 
