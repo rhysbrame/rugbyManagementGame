@@ -1,0 +1,5 @@
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/bin/Debug/RugbyManagementGameV1.exe
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/bin/Debug/RugbyManagementGameV1.pdb
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/obj/x86/Debug/RugbyManagementGameV1.csproj.CoreCompileInputs.cache
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/obj/x86/Debug/RugbyManagementGameV1.exe
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/obj/x86/Debug/RugbyManagementGameV1.pdb
