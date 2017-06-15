@@ -3,21 +3,12 @@ namespace RugbyManagementGameV1.Properties
 {
     public class Player
     {
-        private string player;
-
-        public string PlayerClassName
-        {
-            get
-            {
-                return player;
-            }
-        }
-
+        public string PlayerClassName { get; set; }
         public int PlayerClassSkill { get; set; }
 
         public Player(string playerParameterName, int playerParameterSkill)
         {
-            this.player = playerParameterName;
+            this.PlayerClassName = playerParameterName;
             this.PlayerClassSkill = playerParameterSkill;
         }
     }

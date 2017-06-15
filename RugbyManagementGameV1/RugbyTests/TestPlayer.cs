@@ -7,7 +7,7 @@ namespace RugbyTests
     [TestFixture()]
     public class TestPlayer
     {
-        private Player IndividualPlayer {get;set;}
+        private Player IndividualPlayer;
 
         [SetUp] 
         public void SetUp() {

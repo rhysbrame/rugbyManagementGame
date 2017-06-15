@@ -1,19 +1,22 @@
 ﻿<Properties StartupConfiguration="{B2B33EE9-F00A-46E2-BB81-1C91A21E3D37}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/TestPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyManagementGameV1/Models/Player.cs">
     <Files>
-      <File FileName="RugbyManagementGameV1/Properties/Player.cs" Line="25" Column="1" />
-      <File FileName="RugbyTests/TestPlayer.cs" Line="42" Column="1" />
+      <File FileName="RugbyTests/TestPlayer.cs" Line="3" Column="36" />
+      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="16" Column="1" />
+      <File FileName="RugbyManagementGameV1/Models/Team.cs" Line="13" Column="10" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RugbyManagementGameV1" expanded="True">
             <Node name="RugbyManagementGameV1" expanded="True">
-              <Node name="Properties" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AssemblyInfo.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="RugbyTests" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="TestPlayer.cs" selected="True" />
             </Node>
           </Node>
         </State>
