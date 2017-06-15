@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="TestPlayer.cs" />
     <Compile Include="TestTeam.cs" />
+    <Compile Include="TestCompetition.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
