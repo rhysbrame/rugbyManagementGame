@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{B2B33EE9-F00A-46E2-BB81-1C91A21E3D37}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/TestTeam.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/GameTest.cs">
     <Files>
-      <File FileName="RugbyManagementGameV1/Models/Competition.cs" Line="2" Column="1" />
-      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="1" Column="14" />
-      <File FileName="RugbyManagementGameV1/Models/Team.cs" Line="50" Column="26" />
-      <File FileName="RugbyTests/TestTeam.cs" Line="54" Column="1" NotebookId="1" />
+      <File FileName="RugbyManagementGameV1/Models/Game.cs" Line="22" Column="47" />
+      <File FileName="RugbyManagementGameV1/Models/Team.cs" Line="9" Column="9" NotebookId="1" />
+      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="1" Column="14" NotebookId="1" />
+      <File FileName="RugbyManagementGameV1/Models/Competition.cs" Line="2" Column="39" NotebookId="1" />
+      <File FileName="RugbyTests/GameTest.cs" Line="32" Column="31" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,22 @@
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="RugbyTests" expanded="True">
-              <Node name="TestTeam.cs" selected="True" />
+              <Node name="GameTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="RugbyManagementGameV1" expanded="True">
+            <Node name="RugbyManagementGameV1" expanded="True">
+              <Node name="RugbyManagementGameV1" expanded="True">
+                <Node name="Models" expanded="True" selected="True" />
+                <Node name="RugbyManagementGameV1.Models.Competition" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="RugbyTests" expanded="True">
+              <Node name="RugbyTests" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -65,7 +65,7 @@ namespace RugbyTests
         [Test()]
         public void TestCalculateTeamSkill()
         {
-            
+ //Console.Write(this.IndividualPlayer);
             for (int i = 0; i < IndividualTeam.teamSheet.Length; i++)
 			{
 				IndividualTeam.AddPlayer(IndividualPlayer);

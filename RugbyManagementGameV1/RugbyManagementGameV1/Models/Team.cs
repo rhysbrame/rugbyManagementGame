@@ -4,7 +4,6 @@ namespace RugbyManagementGameV1.Models
     public class Team
     {
         public Player[] teamSheet;
-
         public string TeamClassName { get; set; }
         public int TeamClassSkill { get; set; }
 
@@ -57,6 +56,7 @@ namespace RugbyManagementGameV1.Models
 			}
 			return teamSkill;
         }
+
 
      }
  }

@@ -37,6 +37,7 @@
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Competition.cs" />
+    <Compile Include="Models\Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

@@ -34,6 +34,7 @@
     <Compile Include="TestPlayer.cs" />
     <Compile Include="TestTeam.cs" />
     <Compile Include="TestCompetition.cs" />
+    <Compile Include="GameTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
