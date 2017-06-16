@@ -30,5 +30,13 @@ namespace RugbyTests
         {          
             Assert.AreEqual( 0.33, IndividualGame.CalculateWinnerRange()); 
         }
-    }
+
+        [Test()]
+        public void TestWinner()
+        {
+            String Winner = IndividualGame.CalculateWinner();
+            //String WinnerName = Winner.TeamClassName;
+            Assert.AreEqual( "Saracens", Winner);
+        }
+	}
 }

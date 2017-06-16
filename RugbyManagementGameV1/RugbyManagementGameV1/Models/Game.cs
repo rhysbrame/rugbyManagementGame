@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace RugbyManagementGameV1.Models
 {
     public class Game
@@ -22,6 +23,28 @@ namespace RugbyManagementGameV1.Models
             double range = homeValue / divisor;
             return Math.Round(range, 2);
         }
+
+        public String CalculateWinner() 
+        {
+            Random randomIndex = new Random();
+            double identifier = Math.Round(randomIndex.NextDouble(),2);
+
+            Console.Write(identifier);
+            Console.Write(this.CalculateWinnerRange());
+
+            if (identifier < this.CalculateWinnerRange())
+            {
+                return homeTeam.TeamClassName;
+            }
+            else if (identifier > this.CalculateWinnerRange())
+            {
+                return awayTeam.TeamClassName;
+            }
+            else 
+            {
+                return "Draw";
+            }
+        } 
 
     }
 }
