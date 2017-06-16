@@ -1,16 +1,9 @@
-﻿<Properties StartupConfiguration="{B2B33EE9-F00A-46E2-BB81-1C91A21E3D37}|Default">
+﻿<Properties StartupConfiguration="{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}|">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RugbyManagementGameV1" expanded="True">
-            <Node name="RugbyManagementGameV1" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="RugbyTests" expanded="True" selected="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="RugbyManagementGameV1" selected="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -27,11 +20,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.RugbyManagementGameV1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RugbyAPI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

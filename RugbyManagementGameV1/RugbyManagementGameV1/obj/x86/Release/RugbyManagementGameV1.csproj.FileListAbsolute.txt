@@ -1,0 +1,3 @@
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/bin/Release/RugbyManagementGameV1.exe
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/obj/x86/Release/RugbyManagementGameV1.csproj.CoreCompileInputs.cache
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyManagementGameV1/obj/x86/Release/RugbyManagementGameV1.exe

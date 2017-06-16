@@ -1,0 +1,7 @@
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/bin/Release/RugbyTests.dll
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/bin/Release/nunit.framework.dll
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/bin/Release/RugbyManagementGameV1.exe
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/bin/Release/nunit.framework.xml
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/obj/Release/RugbyTests.csprojResolveAssemblyReference.cache
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/obj/Release/RugbyTests.csproj.CoreCompileInputs.cache
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManagementGameV1/RugbyTests/obj/Release/RugbyTests.dll

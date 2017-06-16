@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyManagementGameV1", "Ru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyTests", "RugbyTests\RugbyTests.csproj", "{62275759-B098-4673-B069-A935DA8488B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyAPI", "RugbyAPI\RugbyAPI.csproj", "{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RugbyAPI.Tests", "RugbyAPI.Tests\RugbyAPI.Tests.csproj", "{32CC7D35-075D-4E84-A3C9-B6EC197BFDE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +23,13 @@ Global
 		{62275759-B098-4673-B069-A935DA8488B8}.Debug|x86.Build.0 = Debug|Any CPU
 		{62275759-B098-4673-B069-A935DA8488B8}.Release|x86.ActiveCfg = Release|Any CPU
 		{62275759-B098-4673-B069-A935DA8488B8}.Release|x86.Build.0 = Release|Any CPU
+		{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}.Release|x86.Build.0 = Release|Any CPU
+		{32CC7D35-075D-4E84-A3C9-B6EC197BFDE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32CC7D35-075D-4E84-A3C9-B6EC197BFDE8}.Debug|x86.Build.0 = Debug|Any CPU
+		{32CC7D35-075D-4E84-A3C9-B6EC197BFDE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{32CC7D35-075D-4E84-A3C9-B6EC197BFDE8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
