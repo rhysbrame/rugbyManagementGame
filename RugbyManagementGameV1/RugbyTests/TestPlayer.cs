@@ -11,13 +11,13 @@ namespace RugbyTests
         [SetUp] 
         public void SetUp()
         {
-            IndividualPlayer = new Player("Darren", 5);
+            IndividualPlayer = new Player("Rhys Patchell", 10, 14);
         }
 
         [Test()]
         public void TestPlayerNameIsSet()
         {
-            Assert.AreEqual("Darren", IndividualPlayer.PlayerClassName);
+            Assert.AreEqual("Rhys Patchell", IndividualPlayer.PlayerClassName);
         }
 
 		[Test()]
@@ -32,10 +32,16 @@ namespace RugbyTests
 			Assert.AreEqual("Rhys", IndividualPlayer.PlayerClassName);
 		}
 
+		[Test()]
+		public void TestPlayerPositionIsSet()
+		{
+			Assert.AreEqual(10, IndividualPlayer.PlayerClassPosition);
+		}
+
         [Test()]
 		public void TestPlayerSkillIsSet()
 		{
-			Assert.AreEqual("Darren", IndividualPlayer.PlayerClassName);
+			Assert.AreEqual( 14, IndividualPlayer.PlayerClassSkill);
 		}
     }
 }

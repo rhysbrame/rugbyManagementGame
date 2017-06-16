@@ -14,7 +14,7 @@ namespace RugbyTests
         public void SetUp()
         {
             IndividualTeam = new Team("Tolouse", 225);
-            IndividualPlayer = new Player("Gareth Thomas", 14);
+            IndividualPlayer = new Player("Gareth Thomas", 15, 14);
         }
 
         [Test()]
