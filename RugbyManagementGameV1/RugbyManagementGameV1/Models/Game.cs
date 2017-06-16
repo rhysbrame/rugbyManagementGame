@@ -28,16 +28,16 @@ namespace RugbyManagementGameV1.Models
         {
             Random randomIndex = new Random();
             double identifier = Math.Round(randomIndex.NextDouble(),2);
-            double drawCoeff = 0.05;//2016 rugby season has av of 5% of drawn games
+            double drawCoeff = 0.02;//2016 rugby season has av of 5% of drawn games
 
             Console.Write(identifier);
             Console.Write(this.CalculateWinnerRange());
 
-            if ( identifier > drawCoeff && identifier < this.CalculateWinnerRange())
+            if ( identifier < (this.CalculateWinnerRange() - drawCoeff))
             {
                 return homeTeam.TeamClassName;
             }
-            else if (identifier > this.CalculateWinnerRange())
+            else if (identifier > (this.CalculateWinnerRange() + drawCoeff))
             {
                 return awayTeam.TeamClassName;
             }

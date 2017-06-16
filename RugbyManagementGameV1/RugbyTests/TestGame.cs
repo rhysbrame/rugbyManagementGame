@@ -32,11 +32,11 @@ namespace RugbyTests
         }
 
         [Test()]
-        public void TestWinner()
+        public void TestWinner()//impossible to test randomness
         {
             String Winner = IndividualGame.CalculateWinner();
             //String WinnerName = Winner.TeamClassName;
-            Assert.AreEqual( "Saracens", Winner);
+            Assert.AreEqual( "Saracens" , Winner);
         }
 	}
 }
