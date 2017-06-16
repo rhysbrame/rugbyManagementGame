@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{B2B33EE9-F00A-46E2-BB81-1C91A21E3D37}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/GameTest.cs">
-    <Files>
-      <File FileName="RugbyManagementGameV1/Models/Game.cs" Line="30" Column="37" />
-      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="19" Column="1" NotebookId="1" />
-      <File FileName="RugbyTests/GameTest.cs" Line="35" Column="64" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -12,8 +7,8 @@
             <Node name="RugbyManagementGameV1" expanded="True">
               <Node name="Models" expanded="True" />
             </Node>
-            <Node name="RugbyTests" expanded="True">
-              <Node name="GameTest.cs" selected="True" />
+            <Node name="RugbyTests" expanded="True" selected="True">
+              <Node name="Packages" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -22,13 +17,9 @@
         <State name="__root__">
           <Node name="RugbyManagementGameV1" expanded="True">
             <Node name="RugbyManagementGameV1" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="RugbyManagementGameV1" expanded="True">
-                <Node name="Models" expanded="True" selected="True" />
-              </Node>
+              <Node name="RugbyManagementGameV1" expanded="True" />
             </Node>
-            <Node name="RugbyTests" expanded="True">
-              <Node name="References" expanded="True" />
+            <Node name="RugbyTests" expanded="True" selected="True">
               <Node name="RugbyTests" expanded="True" />
             </Node>
           </Node>
