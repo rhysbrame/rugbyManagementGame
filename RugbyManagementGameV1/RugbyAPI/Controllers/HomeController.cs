@@ -20,9 +20,12 @@ namespace RugbyAPI.Controllers
             return View();
         }
 
-        public string Welcome()
+        public ActionResult Welcome(string name, int ID = 1)
         {
-            return "Welcome page";
+            ViewData["Message"] = "Hey, " + name;
+            ViewData["ID"] = ID;
+
+            return View();
         }
 
     }
