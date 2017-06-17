@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{2962DE6D-F064-4015-9BE8-A342EA757D31}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Player.cs">
+    <Files>
+      <File FileName="Controllers/PlayerController.cs" Line="71" Column="21" />
+      <File FileName="Models/PlayerContext.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="Models/Player.cs" Line="9" Column="39" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
