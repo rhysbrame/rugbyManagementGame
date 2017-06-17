@@ -15,11 +15,11 @@ namespace RugbyManager2017.Controllers
 		{
 			_context = context;
 
-			if (_context.Players.Count() == 0)
-			{
-				_context.Players.Add(new Player { PlayerClassName = "Ken Owens", PlayerClassPosition = 2, PlayerClassSkill = 14 });
-				_context.SaveChanges();
-			}
+			//if (_context.Players.Count() == 0)
+			//{
+			//	_context.Players.Add(new Player { PlayerClassName = "Ken Owens", PlayerClassPosition = 2, PlayerClassSkill = 14 });
+			//	_context.SaveChanges();
+			//}
 		}
 
 		[HttpGet]
