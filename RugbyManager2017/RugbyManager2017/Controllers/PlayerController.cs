@@ -39,5 +39,19 @@ namespace RugbyManager2017.Controllers
 			return new ObjectResult(item);
 		}
 
+		[HttpPost]
+		public IActionResult Create([FromBody] Player item)
+		{
+			if (item == null)
+			{
+				return BadRequest();
+			}
+
+			_context.Players.Add(item);
+			_context.SaveChanges();
+
+			return CreatedAtRoute("GetPlayer", new { id = item.Id }, item);
+		}
+
 	}
 }

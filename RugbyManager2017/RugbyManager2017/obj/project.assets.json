@@ -21176,10 +21176,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Projects/RugbyManager2017/RugbyManager2017/RugbyManager2017.csproj",
+      "projectUniqueName": "/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManager2017/RugbyManager2017/RugbyManager2017.csproj",
       "projectName": "RugbyManager2017",
-      "projectPath": "/Users/user/Projects/RugbyManager2017/RugbyManager2017/RugbyManager2017.csproj",
-      "outputPath": "/Users/user/Projects/RugbyManager2017/RugbyManager2017/obj",
+      "projectPath": "/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManager2017/RugbyManager2017/RugbyManager2017.csproj",
+      "outputPath": "/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManager2017/RugbyManager2017/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
