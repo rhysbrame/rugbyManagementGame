@@ -19,10 +19,16 @@ namespace RugbyManager2017.Models
                 context.Players.AddRange(
                     new Player
                     {
-                        PlayerClassName = "Stephen Jones",
-                        PlayerClassSkill = 16,
-                        PlayerClassPosition = 10
-                    }
+                        PlayerName = "Stephen Jones",
+                        PlayerSkill = 16,
+                        PlayerPosition = 10
+                    },
+                    new Player
+                    {
+                        PlayerName = "Sam Warburton",
+                        PlayerSkill = 17,
+                        PlayerPosition = 7
+                    }                    
                 );
                 context.SaveChanges();
             }

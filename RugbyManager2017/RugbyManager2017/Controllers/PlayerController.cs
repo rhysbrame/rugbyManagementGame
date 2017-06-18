@@ -72,10 +72,10 @@ namespace RugbyManager2017.Controllers
 				return NotFound();
 			}
 
-			player.IsComplete = item.IsComplete;
-			player.PlayerClassName = item.PlayerClassName;
-            player.PlayerClassPosition = item.PlayerClassPosition;
-            player.PlayerClassSkill = item.PlayerClassSkill;
+			
+			player.PlayerName = item.PlayerName;
+            player.PlayerPosition = item.PlayerPosition;
+            player.PlayerSkill = item.PlayerSkill;
 
 			_context.Players.Update(player);
 			_context.SaveChanges();
