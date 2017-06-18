@@ -6,14 +6,14 @@ namespace RugbyManager2017.Models
     {
         public long Id { get; set; }
         public string ClubName { get; set; }
-        public Player[] teamSheet;
+        public Player[] teamSheet = new Player[23];
         //competition
 
-        public Club(string name)
-        {
-            this.ClubName = name;
-            this.teamSheet = new Player[23];
-        }
+        //public Club(string name)
+        //{
+        //    this.ClubName = name;
+        //    this.teamSheet = new Player[23];
+        //}
 
 		public int TeamSheetCount()
 		{

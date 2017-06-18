@@ -10,12 +10,6 @@ namespace RugbyManager2017.Models
         public int PlayerPosition { get; set; }
         public int PlayerSkill { get; set; }
 
-        public Player(string name, int position, int skill)
-        {
-            this.PlayerName = name;
-            this.PlayerPosition = position;
-            this.PlayerSkill = skill;
-        }
     }
 
 }

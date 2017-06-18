@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,19 +19,37 @@ namespace RugbyManager2017.Models
                 context.Players.AddRange(
                     new Player
                     {
-                        PlayerName = "Stephen Jones",
-                        PlayerSkill = 16,
-                        PlayerPosition = 10
+	                    PlayerName = "Stephen Jones",
+	                    PlayerSkill = 2,
+	                    PlayerPosition = 13
                     },
-                    new Player
+					new Player
                     {
-                        PlayerName = "Sam Warburton",
-                        PlayerSkill = 17,
-                        PlayerPosition = 7
-                    }                    
+						PlayerName = "Eddie Jones",
+						PlayerSkill = 13,
+						PlayerPosition = 3
+                    }                                    
                 );
+
                 context.SaveChanges();
             }
-        }
+
+			using (var context = new ClubContext(serviceProvider.GetRequiredService<DbContextOptions<ClubContext>>()))
+			{
+				if (context.Clubs.Any())
+				{
+					return;
+				}
+
+				context.Clubs.AddRange(
+					new Club { ClubName = "Scarlets" },
+					new Club { ClubName = "Hurricanes" }
+                );
+
+				context.SaveChanges();
+			}
+
+
+		}
     }
 }

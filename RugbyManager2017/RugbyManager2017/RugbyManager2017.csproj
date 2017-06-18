@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="Models\" />
+    <Folder Include="Models\Seeds\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,5 +20,6 @@
   <ItemGroup>
     <Compile Remove="Models\EmptyEnumeration.cs" />
     <Compile Remove="Models\TeamNameEnums.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
   </ItemGroup>
 </Project>
