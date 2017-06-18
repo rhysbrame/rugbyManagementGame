@@ -1,8 +1,18 @@
 ﻿<Properties StartupConfiguration="{2962DE6D-F064-4015-9BE8-A342EA757D31}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/PlayerController.cs">
-    <Files>
-      <File FileName="Controllers/PlayerController.cs" Line="12" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RugbyManager2017" expanded="True">
+            <Node name="RugbyManager2017" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="SeedData.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

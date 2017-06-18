@@ -22,6 +22,11 @@ namespace RugbyManager2017.Controllers
 			//}
 		}
 
+        public string Index()
+        {
+            return "testing out a route";
+        }
+
 		[HttpGet]
 		public IEnumerable<Player> GetAll()
 		{

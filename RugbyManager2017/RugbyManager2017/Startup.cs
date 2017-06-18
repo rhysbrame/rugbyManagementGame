@@ -16,6 +16,8 @@ namespace RugbyManager2017
 		public void Configure(IApplicationBuilder app)
 		{
 			app.UseMvc();
+
+            SeedData.Initialize(app.ApplicationServices);
 		}
 	}
 }
