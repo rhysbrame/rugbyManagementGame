@@ -3,11 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{62275759-B098-4673-B069-A935DA8488B8}</ProjectGuid>
+    <ProjectGuid>{D788A717-7C15-4268-A34A-52C2DF8F8D29}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>RugbyTests</RootNamespace>
-    <AssemblyName>RugbyTests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>TestRugbyManager2017</RootNamespace>
+    <AssemblyName>TestRugbyManager2017</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,24 +25,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestPlayer.cs" />
-    <Compile Include="TestTeam.cs" />
-    <Compile Include="TestCompetition.cs" />
-    <Compile Include="TestGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RugbyManagementGameV1\RugbyManagementGameV1.csproj">
-      <Project>{B2B33EE9-F00A-46E2-BB81-1C91A21E3D37}</Project>
-      <Name>RugbyManagementGameV1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

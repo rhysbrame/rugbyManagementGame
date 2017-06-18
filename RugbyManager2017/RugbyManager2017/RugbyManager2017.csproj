@@ -21,5 +21,14 @@
     <Compile Remove="Models\EmptyEnumeration.cs" />
     <Compile Remove="Models\TeamNameEnums.cs" />
     <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="TestRugbyManager2017\Test.cs" />
+    <Compile Remove="TestRugbyManager2017\TestPlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="TestRugbyManager2017\packages.config" />
+    <None Remove="TestRugbyManager2017\obj\Debug\TestRugbyManager2017.csproj.CoreCompileInputs.cache" />
+    <None Remove="TestRugbyManager2017\obj\Debug\TestRugbyManager2017.csproj.FileListAbsolute.txt" />
+    <None Remove="TestRugbyManager2017\obj\Debug\TestRugbyManager2017.csprojResolveAssemblyReference.cache" />
+    <None Remove="ContextFile.txt" />
   </ItemGroup>
 </Project>

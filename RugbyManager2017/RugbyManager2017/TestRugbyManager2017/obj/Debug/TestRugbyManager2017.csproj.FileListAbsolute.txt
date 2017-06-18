@@ -1,0 +1,2 @@
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManager2017/RugbyManager2017/TestRugbyManager2017/obj/Debug/TestRugbyManager2017.csprojResolveAssemblyReference.cache
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RugbyManager2017/RugbyManager2017/TestRugbyManager2017/obj/Debug/TestRugbyManager2017.csproj.CoreCompileInputs.cache
