@@ -10,6 +10,7 @@ namespace RugbyManager2017
 		public void ConfigureServices(IServiceCollection services)
 		{
             services.AddDbContext<PlayerContext>(opt => opt.UseInMemoryDatabase());
+            services.AddDbContext<ClubContext>(opt => opt.UseInMemoryDatabase());
 			services.AddMvc();
 		}
 
