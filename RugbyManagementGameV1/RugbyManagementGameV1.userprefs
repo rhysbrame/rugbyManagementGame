@@ -1,5 +1,27 @@
 ﻿<Properties StartupConfiguration="{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/TestTeam.cs">
+    <Files>
+      <File FileName="RugbyTests/TestCompetition.cs" Line="1" Column="1" />
+      <File FileName="RugbyTests/TestGame.cs" Line="1" Column="1" />
+      <File FileName="RugbyTests/TestPlayer.cs" Line="1" Column="1" />
+      <File FileName="RugbyTests/TestTeam.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RugbyManagementGameV1" expanded="True">
+            <Node name="RugbyManagementGameV1" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="RugbyTests" expanded="True">
+              <Node name="TestTeam.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
