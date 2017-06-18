@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{2962DE6D-F064-4015-9BE8-A342EA757D31}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Club.cs">
-    <Files>
-      <File FileName="Models/Club.cs" Line="5" Column="1" />
-      <File FileName="Models/Player.cs" Line="15" Column="1" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
