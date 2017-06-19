@@ -1,0 +1,95 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using RM17.Models;
+
+namespace RM17.Controllers
+{
+	[Route("api/[controller]")]
+	public class PlayerController : Controller
+	{
+		private readonly PlayerContext _context;
+
+		public PlayerController(PlayerContext context)
+		{
+			_context = context;
+
+			if (_context.Players.Count() == 0)
+			{
+				_context.Players.Add(new Player { PlayerName = "Ken Owens", PlayerPosition = 2, PlayerSkill = 14 });
+				_context.SaveChanges();
+			}
+		}
+
+		[HttpGet]
+		public IEnumerable<Player> GetAll()
+		{
+			return _context.Players.ToList();
+		}
+
+		[HttpGet("{id}", Name = "GetPlayer")]
+		public IActionResult GetById(long id)
+		{
+			var item = _context.Players.FirstOrDefault(t => t.Id == id);
+			if (item == null)
+			{
+				return NotFound();
+			}
+			return new ObjectResult(item);
+		}
+
+		[HttpPost]
+		public IActionResult Create([FromBody] Player item)
+		{
+			if (item == null)
+			{
+				return BadRequest();
+			}
+
+			_context.Players.Add(item);
+			_context.SaveChanges();
+
+			return CreatedAtRoute("GetPlayer", new { id = item.Id }, item);
+		}
+
+		[HttpPut("{id}")]
+		public IActionResult Update(long id, [FromBody] Player item)
+		{
+			if (item == null || item.Id != id)
+			{
+				return BadRequest();
+			}
+
+			var player = _context.Players.FirstOrDefault(t => t.Id == id);
+			if (player == null)
+			{
+				return NotFound();
+			}
+
+			
+			player.PlayerName = item.PlayerName;
+            player.PlayerPosition = item.PlayerPosition;
+            player.PlayerSkill = item.PlayerSkill;
+
+			_context.Players.Update(player);
+			_context.SaveChanges();
+			return new NoContentResult();
+		}
+
+		[HttpDelete("{id}")]
+		public IActionResult Delete(long id)
+		{
+			var player = _context.Players.First(t => t.Id == id);
+			if (player == null)
+			{
+				return NotFound();
+			}
+
+			_context.Players.Remove(player);
+			_context.SaveChanges();
+			return new NoContentResult();
+		}
+
+	}
+}

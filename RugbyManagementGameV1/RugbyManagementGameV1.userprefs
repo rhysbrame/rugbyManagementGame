@@ -1,15 +1,7 @@
 ﻿<Properties StartupConfiguration="{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyAPI/Controllers/PracticeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/TestPlayer.cs">
     <Files>
-      <File FileName="RugbyManagementGameV1/Models/PlayerContext.cs" Line="1" Column="1" />
-      <File FileName="RugbyManagementGameV1/Models/Competition.cs" Line="1" Column="1" />
-      <File FileName="RugbyManagementGameV1/Models/Game.cs" Line="1" Column="1" />
-      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="1" Column="1" />
-      <File FileName="RugbyManagementGameV1/Models/Team.cs" Line="1" Column="1" />
-      <File FileName="RugbyTests/TestCompetition.cs" Line="1" Column="1" />
       <File FileName="RugbyTests/TestPlayer.cs" Line="1" Column="1" />
-      <File FileName="RugbyAPI/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="RugbyAPI/Controllers/PracticeController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />

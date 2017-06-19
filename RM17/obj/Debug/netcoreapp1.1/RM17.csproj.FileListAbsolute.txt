@@ -1,0 +1,8 @@
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/bin/Debug/netcoreapp1.1/RM17.deps.json
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/bin/Debug/netcoreapp1.1/RM17.runtimeconfig.json
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/bin/Debug/netcoreapp1.1/RM17.runtimeconfig.dev.json
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/bin/Debug/netcoreapp1.1/RM17.dll
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/bin/Debug/netcoreapp1.1/RM17.pdb
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/obj/Debug/netcoreapp1.1/RM17.AssemblyInfo.cs
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/obj/Debug/netcoreapp1.1/RM17.dll
+/Users/user/Documents/rhys_homework/week_16_19jun/final_project/RM17/obj/Debug/netcoreapp1.1/RM17.pdb
