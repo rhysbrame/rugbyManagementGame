@@ -2,8 +2,8 @@
 
 namespace RugbyManager2017.Models
 {
-    public class Team
+    public abstract class Team
     {
-
-    }
+		public long Id { get; set; }    
+	}
 }

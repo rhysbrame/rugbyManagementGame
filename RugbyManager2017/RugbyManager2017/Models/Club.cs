@@ -4,7 +4,6 @@ namespace RugbyManager2017.Models
 {
     public class Club : Team
     {
-        public long Id { get; set; }
         public string ClubName { get; set; }
         public Player[] teamSheet = new Player[23];
         public int teamSkill { get; set; }

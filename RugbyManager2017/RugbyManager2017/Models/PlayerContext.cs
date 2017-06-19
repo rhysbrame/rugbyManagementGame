@@ -7,6 +7,7 @@ namespace RugbyManager2017.Models
     {
         public PlayerContext(DbContextOptions<PlayerContext> options) : base(options)
         {
+            
         }
 
         public DbSet<Player> Players { get; set; }
