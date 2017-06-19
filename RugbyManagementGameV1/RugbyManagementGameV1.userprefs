@@ -1,24 +1,16 @@
 ﻿<Properties StartupConfiguration="{EC0CC278-B571-4CE6-89BF-C14CF6420FAD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyTests/packages.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyAPI/Controllers/PracticeController.cs">
     <Files>
-      <File FileName="RugbyAPI/Web.config" Line="1" Column="1" />
-      <File FileName="RugbyAPI/packages.config" Line="1" Column="1" />
-      <File FileName="RugbyTests/packages.config" Line="1" Column="1" />
-      <File FileName="RugbyAPI.Tests/packages.config" Line="13" Column="12" />
+      <File FileName="RugbyManagementGameV1/Models/PlayerContext.cs" Line="1" Column="1" />
+      <File FileName="RugbyManagementGameV1/Models/Competition.cs" Line="1" Column="1" />
+      <File FileName="RugbyManagementGameV1/Models/Game.cs" Line="1" Column="1" />
+      <File FileName="RugbyManagementGameV1/Models/Player.cs" Line="1" Column="1" />
+      <File FileName="RugbyManagementGameV1/Models/Team.cs" Line="1" Column="1" />
+      <File FileName="RugbyTests/TestCompetition.cs" Line="1" Column="1" />
+      <File FileName="RugbyTests/TestPlayer.cs" Line="1" Column="1" />
+      <File FileName="RugbyAPI/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="RugbyAPI/Controllers/PracticeController.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="RugbyManagementGameV1" expanded="True">
-            <Node name="RugbyAPI" expanded="True" />
-            <Node name="RugbyAPI.Tests" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
-            <Node name="RugbyTests" expanded="True" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
